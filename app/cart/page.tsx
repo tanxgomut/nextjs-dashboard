@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <div>
         <Nav />
-        <button onClick={() => addToCart(product)} className='py-2 px-4 rounded-md bg-slate-500'>insert cart</button>
+        <button onClick={() => addToCart(product)} className='py-2 px-4 rounded-md bg-slate-500'>insert cart data</button>
     </div>
   )
 }
